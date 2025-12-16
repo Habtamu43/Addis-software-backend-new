@@ -1,0 +1,39 @@
+{
+  "name": "addis-software-backend",
+  "version": "1.0.0",
+  "description": "Backend for Addis Software Test Project - MERN Stack",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+  "dev": "nodemon --watch 'src/**/*.ts' --exec 'node --loader ts-node/esm' src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Habtamu43/Addis-software-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Habtamu43/Addis-software-backend/issues"
+  },
+  "homepage": "https://github.com/Habtamu43/Addis-software-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^25.0.2",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
